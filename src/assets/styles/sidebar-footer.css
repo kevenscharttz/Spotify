@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+    font-family: var(--font-dm-sans);
     background-color: #000000;
 }
 
@@ -32,7 +33,7 @@ h1 {
 
 
 .sidebar-navigation .logo img {
-    width: 80px;
+    width: 100px;
 }
 
 .sidebar nav ul {
@@ -43,13 +44,12 @@ h1 {
 .sidebar nav ul li {
     padding: 10px 0px;  
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
-    font-family: "DM sans", sans-serif;
 }
 
 .library {
@@ -76,9 +76,8 @@ h1 {
     color: #b3b3b3;
     background: transparent;
     border: none;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700px;
-    font-family: "DM sans", sans-serif;
     text-align: center;
     text-decoration: none;
     padding: 20px 10px;
@@ -116,7 +115,6 @@ h1 {
 
 .section-playlist .playlist-content .text {
     padding-bottom: 14px;
-    font-family: "DM sans", sans-serif;
     color: #ffffff;
 }
 
@@ -137,7 +135,6 @@ h1 {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM sans", sans-serif;
     text-decoration: none;
     border: none;
     padding: 10px;
@@ -155,7 +152,6 @@ h1 {
 }
 
 .sidebar .cookies a{
-    font-family: "DM sans", sans-serif;
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
@@ -168,7 +164,6 @@ h1 {
 }
 
 .language .button-language {
-    font-family: "DM sans", sans-serif;
     align-items: center;
     background: transparent;
     border: 1px solid #ffffff;
@@ -201,7 +196,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "DM sans", sans-serif;
     color: #ffffff;
 }
 
@@ -215,7 +209,6 @@ h1 {
 
 
 .disclaimer-premium .button-registration {
-    font-family: "DM sans", sans-serif;
     font-weight: bold;
     font-size: 16px;
     border-radius: 40px;
@@ -223,3 +216,5 @@ h1 {
     padding: 15px 30px;
     cursor: pointer;
 }
+
+
