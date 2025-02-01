@@ -185,3 +185,41 @@ h1 {
     color: #000000;
     transition: 0.5s;
 }
+
+.disclaimer-premium {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+}
+
+.disclaimer-premium .disclaimer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "DM sans", sans-serif;
+    color: #ffffff;
+}
+
+.disclaimer-premium .disclaimer-content .disclaimer-premium-title {
+    margin-top: 10px;
+}
+
+.disclaimer-premium .disclaimer-content .disclaimer-premium-subtitle{
+    margin-top: 10px;
+}
+
+
+.disclaimer-premium .button-registration {
+    font-family: "DM sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
