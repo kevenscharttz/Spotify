@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+body {
+    font-family: var(--font-dm-sans);
+    background-color: #000000;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 10px;
+    width: 300px;
+}
+
+.sidebar-navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px
+}
+
+.sidebar-navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+}
+
+
+.sidebar-navigation .logo img {
+    width: 100px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0px;  
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library .library-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library-button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 700px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+.library .library-button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 10px;
+}
+
+.library .library-content .fa-plus {
+    margin: 24px 10px;
+    cursor: pointer;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    margin: 8px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.section-playlist .playlist-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-playlist .playlist-content .text {
+    padding-bottom: 14px;
+    color: #ffffff;
+}
+
+.section-playlist .playlist-content .title {
+    font-weight: 700;
+}
+
+.section-playlist .playlist-content .subtitle {
+    font-weight: 500;
+}
+
+.section-playlist .playlist-content .button-playlist {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    margin-top: 12px;
+    width: 113px;
+}
+
+.section-playlist .playlist-content .button-playlist:hover {
+    background-color: #9b9b9b;
+    transition: 0.5s;
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;   
+}
+
+.sidebar .cookies a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+    color: #b3b3b3;
+    transition: 0.2s;
+}
+
+.language .button-language {
+    align-items: center;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    font: bold;
+    color: white;
+    width: 180px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.language .button-language:hover{
+    background-color: #9b9b9b;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.disclaimer-premium {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+}
+
+.disclaimer-premium .disclaimer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.disclaimer-premium .disclaimer-content .disclaimer-premium-title {
+    margin-top: 10px;
+}
+
+.disclaimer-premium .disclaimer-content .disclaimer-premium-subtitle{
+    margin-top: 10px;
+}
+
+
+.disclaimer-premium .button-registration {
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+
