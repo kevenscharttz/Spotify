@@ -2,11 +2,11 @@
 
 body {
     font-family: var(--font-dm-sans);
-    background-color: #000000;
+    background-color: var(--bg-color-primary);
 }
 
 h1 {
-    color: #FFFFFF;
+    color: var(--text-color-primary);
 }
 
 .sidebar {
@@ -19,13 +19,13 @@ h1 {
 }
 
 .sidebar-navigation {
-    background-color: #121212;
+    background-color: var(--bg-color-secondary);
     border-radius: 8px;
     padding: 16px 0px 0px 16px
 }
 
 .sidebar-navigation .logo {
-    background: #121212;
+    background-color: var(--bg-color-secondary);
     display: flex;
     border-radius: 8px;
     padding: 16px 0px 0px 16px;
@@ -48,18 +48,18 @@ h1 {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: var(--text-color-secondary);
     text-decoration: none;
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--bg-color-secondary);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--text-color-secondary);
     margin-top: 10px;
     font-weight: 600;
     font-size: 14px;
@@ -73,7 +73,7 @@ h1 {
 .library .library-button {
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: var(--text-color-secondary);
     background: transparent;
     border: none;
     font-size: 18px;
@@ -99,8 +99,8 @@ h1 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: var(--bg-color-tertiary);
+    color: var(--text-color-secondary);
     font-weight: 600;
     margin: 8px;
     padding: 16px 20px;
@@ -115,7 +115,7 @@ h1 {
 
 .section-playlist .playlist-content .text {
     padding-bottom: 14px;
-    color: #ffffff;
+    color: var(--text-color-primary)
 }
 
 .section-playlist .playlist-content .title {
@@ -130,7 +130,7 @@ h1 {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--bg-color-quaternary);
     color: #000000;
     border-radius: 20px;
     font-size: 12px;
@@ -143,7 +143,7 @@ h1 {
 }
 
 .section-playlist .playlist-content .button-playlist:hover {
-    background-color: #9b9b9b;
+    background-color: var(--color-hover-primary);
     transition: 0.5s;
 }
 
@@ -153,13 +153,13 @@ h1 {
 
 .sidebar .cookies a{
     text-decoration: none;
-    color: #ffffff;
+    color: var(--text-color-primary);
     cursor: pointer;
 }
 
 .sidebar .cookies a:hover{
     text-decoration: underline;
-    color: #b3b3b3;
+    color: var(--color-hover-primary);
     transition: 0.2s;
 }
 
@@ -169,15 +169,15 @@ h1 {
     border: 1px solid #ffffff;
     border-radius: 15px;
     font: bold;
-    color: white;
+    color: var(--text-color-primary);
     width: 180px;
     padding: 8px;
     cursor: pointer;
 }
 
 .language .button-language:hover{
-    background-color: #9b9b9b;
-    color: #000000;
+    background-color: var(--color-hover-primary);
+    color: var(--bg-color-primary);
     transition: 0.5s;
 }
 
@@ -188,7 +188,7 @@ h1 {
     bottom: 0px;
     right: 0px;
     left: 0px;
-    background: linear-gradient(to right, #ae2896, #509bf5);
+    background: linear-gradient(to right, var(--color-disclaimer-premium-one), var(--color-disclaimer-premium-two));
     padding: 15px 40px;
 }
 
@@ -196,7 +196,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #ffffff;
+    color: var(--text-color-primary);
 }
 
 .disclaimer-premium .disclaimer-content .disclaimer-premium-title {

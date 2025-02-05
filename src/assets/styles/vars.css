@@ -5,7 +5,22 @@
 
 /* Cores */
 :root {
-    --bg-color: #242424;
-    --bg-icon: #000000;    
-    --bg-color-arrow: rgba(0, 0, 0,7);
+    --bg-color-primary: #000000;
+    --bg-color-secondary: #121212;
+    --bg-color-tertiary: #242424;
+    --bg-color-quaternary: #ffffff;
+
+    --text-color-primary: #ffffff;
+    --text-color-secondary: #b3b3b3;
+    --text-color-tertiary: #000000;
+
+    --color-hover-primary: #9b9b9b;
+
+    --color-disclaimer-premium-one: #ae2896;
+    --color-disclaimer-premium-two: #509bf5;
+
+    --color-button-play: #1db954;
+    --color-category: #6a6a6a;
+
+
 }
