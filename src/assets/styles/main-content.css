@@ -75,6 +75,7 @@ main {
     overflow: hidden;
     white-space: nowrap;
     outline: none;
+    user-select: none;
 }
 
 .header-login .subscribe {
@@ -257,7 +258,7 @@ main {
 }
 
 .artist-card:hover {
-  background-color: #252525;
+  background-color: var(--bg-hover-primary);
 }
 
 .card-img {
