@@ -34,34 +34,22 @@ async function searchArtist(searchTerm) {
     return data.artists.items; // Retorna a lista de artistas
 }
 
-// Função para exibir os resultados na tela (agora com múltiplos artistas)
+// Função para exibir os resultados na tela
 function displayResults(artists) {
     resultPlaylist.classList.add("hidden");
-    resultArtist.classList.remove("hidden");
+    const artistName = document.getElementById("artist-name");
+    const artistImage = document.getElementById("artist-img");
 
-    // Limpa os resultados anteriores antes de adicionar novos cards
-    resultArtist.innerHTML = '';
-
-    // Se houver artistas, vamos criar um card para cada um
-    artists.forEach(artist => {
-        const artistCard = document.createElement("div");
-        artistCard.classList.add("artist-card"); // Adicione uma classe para estilizar os cards
-
-        // Cria a imagem e o nome do artista
-        const artistImage = document.createElement("img");
-        artistImage.src = artist.images.length > 0 ? artist.images[0].url : "img/default.jpg";
-        artistImage.alt = artist.name;
-
-        const artistName = document.createElement("h3");
+    if (artists.length > 0) {
+        const artist = artists[0]; // Pega o primeiro artista da lista
         artistName.innerText = artist.name;
+        artistImage.src = artist.images.length > 0 ? artist.images[0].url : "img/default.jpg";
+    } else {
+        artistName.innerText = "Artista não encontrado";
+        artistImage.src = "img/default.jpg";
+    }
 
-        // Adiciona a imagem e o nome ao card
-        artistCard.appendChild(artistImage);
-        artistCard.appendChild(artistName);
-
-        // Adiciona o card à lista de artistas na página
-        resultArtist.appendChild(artistCard);
-    });
+    resultArtist.classList.remove("hidden");
 }
 
 // Evento de input para pesquisar ao digitar
